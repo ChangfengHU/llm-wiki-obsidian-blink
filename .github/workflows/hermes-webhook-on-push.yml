@@ -1,0 +1,89 @@
+name: Trigger Hermes Webhook on Push
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "Webhook action: incremental_build or full_build"
+        required: true
+        default: "incremental_build"
+      question:
+        description: "Optional question for query mode"
+        required: false
+        default: ""
+      save:
+        description: "Save query result into wiki (true/false)"
+        required: false
+        default: "true"
+
+jobs:
+  notify-hermes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build webhook payload
+        id: payload
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            ACTION="${{ github.event.inputs.action }}"
+            QUESTION="${{ github.event.inputs.question }}"
+            SAVE="${{ github.event.inputs.save }}"
+          else
+            ACTION="incremental_build"
+            QUESTION=""
+            SAVE="true"
+          fi
+
+          RUN_ID="gh-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+
+          cat > payload.json <<JSON
+          {
+            "event": "${GITHUB_EVENT_NAME}",
+            "repo": "${GITHUB_REPOSITORY}",
+            "ref": "${GITHUB_REF}",
+            "sha": "${GITHUB_SHA}",
+            "action": "${ACTION}",
+            "question": "${QUESTION}",
+            "save": ${SAVE},
+            "run_id": "${RUN_ID}",
+            "delivery_id": "${RUN_ID}",
+            "actor": "${GITHUB_ACTOR}",
+            "compare": "${{ github.event.compare }}"
+          }
+          JSON
+
+          echo "Payload built:" 
+          cat payload.json
+
+      - name: Call Hermes webhook
+        shell: bash
+        env:
+          HERMES_WEBHOOK_URL: ${{ secrets.HERMES_WEBHOOK_URL }}
+          HERMES_WEBHOOK_TOKEN: ${{ secrets.HERMES_WEBHOOK_TOKEN }}
+        run: |
+          if [ -z "$HERMES_WEBHOOK_URL" ]; then
+            echo "Missing secret: HERMES_WEBHOOK_URL"
+            exit 1
+          fi
+          if [ -z "$HERMES_WEBHOOK_TOKEN" ]; then
+            echo "Missing secret: HERMES_WEBHOOK_TOKEN"
+            exit 1
+          fi
+
+          HTTP_CODE=$(curl -sS -o response.json -w "%{http_code}" \
+            -X POST "$HERMES_WEBHOOK_URL" \
+            -H "Content-Type: application/json" \
+            -H "X-Gitlab-Token: $HERMES_WEBHOOK_TOKEN" \
+            -H "X-Request-ID: gh-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" \
+            --data @payload.json)
+
+          echo "HTTP status: $HTTP_CODE"
+          echo "Response:"
+          cat response.json
+
+          if [ "$HTTP_CODE" -lt 200 ] || [ "$HTTP_CODE" -ge 300 ]; then
+            echo "Webhook call failed"
+            exit 1
+          fi

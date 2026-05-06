@@ -24,3 +24,9 @@
 - Created/updated/deleted affected pages in `wiki/sources/` and `wiki/entities/`.
 - Rebuilt `Sources`/`Entities` sections in `index.md` and `wiki/index.md`.
 - Detailed run log: `logs/webhook-runs/incremental_124.md`.
+
+## [2026-05-06] query | health check only, reply short
+- save: false
+- Filed query page: no
+- Health check summary: core schema/index/log present; wiki layer has 53 markdown pages; detected 20 potential broken wikilinks; `wiki/queries/` directory missing.
+- Detailed run log: `logs/webhook-runs/callback-check-1.md`.
