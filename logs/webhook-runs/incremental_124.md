@@ -62,10 +62,17 @@
 - Captured via `git status --short` before commit.
 
 ## Step 7: Commit & push
-- Pending...
+- Commit command: `git add index.md log.md wiki/index.md wiki/log.md logs/webhook-runs/incremental_124.md wiki/sources wiki/entities && git commit -m "chore: update llm wiki graph"`
+- Commit result: success
+- Commit hash: `9814f88c74e7979e68695cbd7dafd596b1e7cab8`
+- Push command: `git push origin main`
+- Push result: success (`4a8f3f7..9814f88 main -> main`)
+- Post-push `git status --short`:
+  - `?? .github/`
+  - `?? logs/webhook-runs/incremental_123.md`
 
 ## Step 8: Errors
-- None so far.
+- None.
 
 ## Step 9: End time
-- Pending...
+- End time (UTC): 2026-05-06T15:10:43Z
