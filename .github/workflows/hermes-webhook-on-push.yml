@@ -3,6 +3,8 @@ name: Trigger Hermes Webhook on Push
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - 'raw/**'
   workflow_dispatch:
     inputs:
       action:
@@ -60,15 +62,15 @@ jobs:
       - name: Call Hermes webhook
         shell: bash
         env:
-          HERMES_WEBHOOK_URL: ${{ secrets.HERMES_WEBHOOK_URL }}
-          HERMES_WEBHOOK_TOKEN: ${{ secrets.HERMES_WEBHOOK_TOKEN }}
+          HERMES_WEBHOOK_URL: ${{ vars.HERMES_WEBHOOK_URL != '' && vars.HERMES_WEBHOOK_URL || secrets.HERMES_WEBHOOK_URL }}
+          HERMES_WEBHOOK_TOKEN: ${{ vars.HERMES_WEBHOOK_TOKEN != '' && vars.HERMES_WEBHOOK_TOKEN || secrets.HERMES_WEBHOOK_TOKEN }}
         run: |
           if [ -z "$HERMES_WEBHOOK_URL" ]; then
-            echo "Missing secret: HERMES_WEBHOOK_URL"
+            echo "Missing config: HERMES_WEBHOOK_URL (vars or secrets)"
             exit 1
           fi
           if [ -z "$HERMES_WEBHOOK_TOKEN" ]; then
-            echo "Missing secret: HERMES_WEBHOOK_TOKEN"
+            echo "Missing config: HERMES_WEBHOOK_TOKEN (vars or secrets)"
             exit 1
           fi
 
