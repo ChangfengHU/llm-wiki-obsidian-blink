@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Content catalog for the LLM Wiki repository. The canonical maintained knowledge layer is `wiki/`; raw sources remain immutable under `raw/`.
-> Last updated: 2026-05-06 | Total pages: 62 | Total indexed raw sources: 22
+> Last updated: 2026-05-06 | Total pages: 64 | Total indexed raw sources: 23
 
 ## Overview
 - [[wiki/overview/开源ai工具知识图谱总览|开源 AI 工具知识图谱总览]] — 汇总 raw 项目卡片形成的开源 AI 工具与自动化知识图谱。
@@ -13,6 +13,7 @@
 - [[wiki/sources/auto-like-my-gf-insta-pic|auto-like-my-gf-insta-pic]] — 这是一个主打“男友求生欲”的 Node.js 娱乐脚本，通过定时任务轮询 Instagram API，自动秒赞特定用户的最新帖子并推送到 Slack。
 - [[wiki/sources/autoclip|autoclip]] — 基于 LLM 的自动化视频二创工具，覆盖下载、语义理解、高光提取和切片生成。
 - [[wiki/sources/awesome|awesome]] — GitHub 上著名的开源资源导航总索引，以严格规范聚合技术领域高质量项目和学习资料。
+- [[wiki/sources/awesome-go|awesome-go]] — Go 语言生态的精选框架、库与软件导航列表，强调社区维护与自动化质量校验。
 - [[wiki/sources/awesome-selfhosted|awesome-selfhosted]] — GitHub 上最具影响力的自托管软件目录之一，聚合可自部署的自由软件网络服务与 Web 应用。
 - [[wiki/sources/ai-trend-analysis-20260506-160559|ai-trend-analysis-20260506-160559]] — 2026Q2 AI 趋势分析：聚焦 Agent 落地、知识图谱化与治理合规。
 - [[wiki/sources/claude-mem|claude-mem]] — 为 Claude Code（及同类 AI 终端工具）打造的**持久化记忆插件**，通过 AI 压缩与 RAG 技术，让大模型在跨会话编程时“记住”你的历史上下文和技术决策。
@@ -37,6 +38,7 @@
 - [[wiki/entities/auto-like-my-gf-insta-pic|auto-like-my-gf-insta-pic]] — 这是一个主打“男友求生欲”的 Node.js 娱乐脚本，通过定时任务轮询 Instagram API，自动秒赞特定用户的最新帖子并推送到 Slack。
 - [[wiki/entities/autoclip|autoclip]] — 基于 LLM 的自动化视频二创工具，覆盖下载、语义理解、高光提取和切片生成。
 - [[wiki/entities/awesome|awesome]] — GitHub 上著名的开源资源导航总索引，以严格规范聚合技术领域高质量项目和学习资料。
+- [[wiki/entities/awesome-go|awesome-go]] — Go 语言生态的高质量开源项目索引，支持技术选型、生态探索和列表工程化维护。
 - [[wiki/entities/awesome-selfhosted|awesome-selfhosted]] — GitHub 上最具影响力的自托管软件目录之一，聚合可自部署的自由软件网络服务与 Web 应用。
 - [[wiki/entities/ai-trend-analysis-20260506-160559|ai-trend-analysis-20260506-160559]] — 面向 2026Q2 的 AI 产业趋势观察条目，聚焦 Agent 落地、知识图谱化与治理合规。
 - [[wiki/entities/claude-mem|claude-mem]] — 为 Claude Code（及同类 AI 终端工具）打造的**持久化记忆插件**，通过 AI 压缩与 RAG 技术，让大模型在跨会话编程时“记住”你的历史上下文和技术决策。

@@ -51,3 +51,10 @@
 - Changed markdown files: raw/awesome-selfhosted.md.
 - Created `wiki/sources/awesome-selfhosted.md` and `wiki/entities/awesome-selfhosted.md`; updated indexes and relation overview.
 - Detailed run log: `logs/webhook-runs/gh-25457105761-1.md`.
+
+## [2026-05-06] update | incremental_build run_id=gh-25457927233-1
+- Synced `origin/main` with protective stash workflow (`stash -> fetch/checkout/pull --ff-only -> stash pop`).
+- Incremental diff base: `48ce2c532d10d40d820764d74c0c2253d59a9ec9..a236edffb952eb8aca772b46cfd8e5489d9f10f2`.
+- Changed markdown files: raw/awesome-go.md.
+- Created `wiki/sources/awesome-go.md` and `wiki/entities/awesome-go.md`; updated `index.md`, `wiki/index.md`, `wiki/overview/知识图谱关系.md`.
+- Detailed run log: `logs/webhook-runs/gh-25457927233-1.md`.
