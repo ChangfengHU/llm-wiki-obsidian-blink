@@ -3,7 +3,7 @@ type: "source"
 tags: ["automation", "agent", "github", "knowledge-management"]
 summary: "Webhook 增量触发测试原始记录，用于验证 GitHub Action 与 Hermes webhook 联动链路。"
 sources: ["raw/webhook-action-test-20260506-154023.md"]
-updated: "2026-05-06"
+updated: 2026-05-06
 ---
 
 # webhook-action-test-20260506-154023

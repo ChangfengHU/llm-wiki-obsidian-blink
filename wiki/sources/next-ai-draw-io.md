@@ -3,7 +3,7 @@ type: "source"
 tags: ["ai-tool", "diagramming", "llm", "open-source"]
 summary: "将大语言模型与 draw.io 深度整合，用自然语言生成、修改和优化企业级架构图与流程图。"
 sources: ["raw/next-ai-draw-io.md"]
-updated: "2026-05-03"
+updated: 2026-05-06
 ---
 
 # next-ai-draw-io

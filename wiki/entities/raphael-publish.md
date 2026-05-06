@@ -3,7 +3,7 @@ type: "entity"
 tags: ["open-source", "ai-tool", "automation"]
 summary: "一款纯前端的现代 Markdown 排版引擎，核心解决**富文本粘贴净化**与**微信公众号排版（图片防盗链、样式塌陷）**的痛点。"
 sources: ["raw/raphael-publish.md"]
-updated: "2026-05-06"
+updated: 2026-05-06
 ---
 
 # raphael-publish

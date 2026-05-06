@@ -3,7 +3,7 @@ type: "source"
 tags: ["open-source", "ai-tool", "automation"]
 summary: "这是一个面向系统管理员、DevOps 和安全人员的顶级“黑客百宝箱”，汇总了海量高质量的实用工具、Shell 单行脚本、安全备忘录和极客技巧。"
 sources: ["raw/the-book-of-secret-knowledge.md"]
-updated: "2026-05-06"
+updated: 2026-05-06
 ---
 
 # the-book-of-secret-knowledge

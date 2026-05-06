@@ -3,7 +3,7 @@ type: "entity"
 tags: ["open-source", "ai-tool", "automation"]
 summary: "这是一个非官方的 Google NotebookLM Python API 与 CLI 工具，让开发者和 AI Agent 能以编程方式全面接管 NotebookLM，并解锁了网页端未开放的高级导出功能。"
 sources: ["raw/notebooklm-py.md"]
-updated: "2026-05-06"
+updated: 2026-05-06
 ---
 
 # notebooklm-py

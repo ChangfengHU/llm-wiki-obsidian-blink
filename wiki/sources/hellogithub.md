@@ -3,7 +3,7 @@ type: "source"
 tags: ["curated-list", "github", "open-source"]
 summary: "面向入门开发者的开源项目月刊与精选导航，强调‘有趣+可上手’。"
 sources: ["raw/HelloGitHub.md"]
-updated: "2026-05-06"
+updated: 2026-05-06
 ---
 
 # HelloGitHub

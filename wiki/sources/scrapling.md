@@ -3,7 +3,7 @@ type: "source"
 tags: ["open-source", "ai-tool", "automation"]
 summary: "一个具备“自适应防断链”和“开箱即用过反爬”能力的现代 Python 爬虫框架，支持从单次请求无缝扩展到大规模并发抓取，并原生适配 AI Agent。"
 sources: ["raw/Scrapling.md"]
-updated: "2026-05-06"
+updated: 2026-05-06
 ---
 
 # Scrapling

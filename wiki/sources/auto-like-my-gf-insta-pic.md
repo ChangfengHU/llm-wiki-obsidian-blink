@@ -3,7 +3,7 @@ type: "source"
 tags: ["open-source", "ai-tool", "automation"]
 summary: "这是一个主打“男友求生欲”的 Node.js 娱乐脚本，通过定时任务轮询 Instagram API，自动秒赞特定用户的最新帖子并推送到 Slack。"
 sources: ["raw/auto-like-my-gf-insta-pic.md"]
-updated: "2026-05-06"
+updated: 2026-05-06
 ---
 
 # auto-like-my-gf-insta-pic

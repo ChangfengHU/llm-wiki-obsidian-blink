@@ -3,7 +3,7 @@ type: "entity"
 tags: ["open-source", "ai-tool", "automation"]
 summary: "一款基于 Rust 构建的、将传统终端重塑为“AI 智能体开发环境”的现代化终端模拟器，支持 IDE 级别的文本编辑和原生 AI 辅助。"
 sources: ["raw/warp.md"]
-updated: "2026-05-06"
+updated: 2026-05-06
 ---
 
 # warp

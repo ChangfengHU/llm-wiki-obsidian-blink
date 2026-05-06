@@ -3,7 +3,7 @@ type: "source"
 tags: ["curated-list", "github", "open-source"]
 summary: "Go 语言生态的精选框架、库与软件导航列表，强调社区维护与自动化质量校验。"
 sources: ["raw/awesome-go.md"]
-updated: "2026-05-06"
+updated: 2026-05-06
 ---
 
 # awesome-go

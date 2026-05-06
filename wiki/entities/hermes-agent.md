@@ -3,7 +3,7 @@ type: "entity"
 tags: ["agent", "automation", "llm", "open-source"]
 summary: "模型无关、支持多平台接入并具备自我学习闭环的跨端 AI Agent 框架。"
 sources: ["raw/hermes-agent.md"]
-updated: "2026-05-03"
+updated: 2026-05-06
 ---
 
 # hermes-agent

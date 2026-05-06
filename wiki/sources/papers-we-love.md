@@ -3,7 +3,7 @@ type: "source"
 tags: ["curated-list", "open-source", "knowledge-management"]
 summary: "社区驱动的经典计算机科学论文精选与讨论目录，强调高信噪比阅读和长期知识沉淀。"
 sources: ["raw/papers-we-love.md"]
-updated: "2026-05-06"
+updated: 2026-05-06
 ---
 
 # papers-we-love

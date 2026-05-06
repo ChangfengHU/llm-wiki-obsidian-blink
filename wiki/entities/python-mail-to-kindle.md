@@ -3,7 +3,7 @@ type: "entity"
 tags: ["open-source", "ai-tool", "automation"]
 summary: "一个基于 Python 和 Calibre CLI 的自动化脚本，用于抓取邮箱中的电子书附件、转换格式并自动推送到 Kindle。"
 sources: ["raw/python-mail-to-kindle.md"]
-updated: "2026-05-06"
+updated: 2026-05-06
 ---
 
 # python-mail-to-kindle

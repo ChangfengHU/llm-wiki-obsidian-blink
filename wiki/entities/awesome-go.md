@@ -3,7 +3,7 @@ type: "entity"
 tags: ["curated-list", "github", "open-source"]
 summary: "Go 语言生态的高质量开源项目索引，支持技术选型、生态探索和列表工程化维护。"
 sources: ["raw/awesome-go.md"]
-updated: "2026-05-06"
+updated: 2026-05-06
 ---
 
 # awesome-go

@@ -80,3 +80,9 @@
 - Changed markdown files: raw/papers-we-love.md.
 - Created `wiki/sources/papers-we-love.md` and `wiki/entities/papers-we-love.md`; updated `index.md`, `wiki/index.md`, `wiki/overview/知识图谱关系.md`.
 - Detailed run log: `logs/webhook-runs/gh-25459442379-1.md`.
+
+## [2026-05-06] update | full_build run_id=manual-full-20260506-2041
+- Full scan markdown files: 140 total; raw sources: 28.
+- Initialized/repaired structure: wiki/sources, wiki/entities, wiki/concepts, wiki/comparisons, wiki/overview, wiki/queries, logs/webhook-runs.
+- Generated/updated index and graph pages: index.md, wiki/index.md, wiki/overview/知识图谱关系.md, wiki/overview/开源ai工具知识图谱总览.md.
+- Detailed run log: logs/webhook-runs/manual-full-20260506-2041.md.

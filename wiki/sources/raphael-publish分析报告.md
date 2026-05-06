@@ -3,7 +3,7 @@ type: "source"
 tags: ["ai-tool", "open-source", "publishing"]
 summary: "raphael-publish 的技术尽职调查/分析材料，补充其定位、风险和适用边界。"
 sources: ["raw/raphael-publish分析报告.md"]
-updated: "2026-05-03"
+updated: 2026-05-06
 ---
 
 # raphael-publish 分析报告

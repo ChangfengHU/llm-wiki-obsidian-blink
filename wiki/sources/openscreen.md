@@ -3,7 +3,7 @@ type: "source"
 tags: ["desktop", "open-source", "video"]
 summary: "Electron 开源录屏与视频美化工具，对标 Screen Studio，面向产品演示视频制作。"
 sources: ["raw/openscreen.md"]
-updated: "2026-05-03"
+updated: 2026-05-06
 ---
 
 # openscreen

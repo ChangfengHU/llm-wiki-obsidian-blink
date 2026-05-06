@@ -3,7 +3,7 @@ type: "entity"
 tags: ["curated-list", "github", "open-source"]
 summary: "GitHub 上著名的开源资源导航总索引，以严格规范聚合技术领域高质量项目和学习资料。"
 sources: ["raw/awesome.md"]
-updated: "2026-05-03"
+updated: 2026-05-06
 ---
 
 # awesome

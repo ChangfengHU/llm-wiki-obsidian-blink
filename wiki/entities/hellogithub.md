@@ -3,7 +3,7 @@ type: "entity"
 tags: ["curated-list", "github", "open-source"]
 summary: "以月刊形式聚合 GitHub 入门开源项目的高影响力内容型仓库。"
 sources: ["raw/HelloGitHub.md"]
-updated: "2026-05-06"
+updated: 2026-05-06
 ---
 
 # hellogithub

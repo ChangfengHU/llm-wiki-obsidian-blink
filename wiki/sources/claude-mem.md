@@ -3,7 +3,7 @@ type: "source"
 tags: ["open-source", "ai-tool", "automation"]
 summary: "为 Claude Code（及同类 AI 终端工具）打造的**持久化记忆插件**，通过 AI 压缩与 RAG 技术，让大模型在跨会话编程时“记住”你的历史上下文和技术决策。"
 sources: ["raw/claude-mem.md"]
-updated: "2026-05-06"
+updated: 2026-05-06
 ---
 
 # claude-mem

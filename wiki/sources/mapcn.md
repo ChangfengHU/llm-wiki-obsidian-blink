@@ -3,7 +3,7 @@ type: "source"
 tags: ["mapping", "open-source"]
 summary: "面向 React 的 shadcn/ui 风格地图组件库，基于 MapLibre GL，支持 Tailwind 和复制粘贴式集成。"
 sources: ["raw/mapcn.md"]
-updated: "2026-05-03"
+updated: 2026-05-06
 ---
 
 # mapcn

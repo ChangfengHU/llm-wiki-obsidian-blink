@@ -3,7 +3,7 @@ type: "source"
 tags: ["ai-tool", "llm", "open-source", "video"]
 summary: "基于 LLM 和 ComfyUI 的全自动短视频生成引擎，从主题到文案、画面、配音和剪辑端到端生成。"
 sources: ["raw/Pixelle-Video.md"]
-updated: "2026-05-03"
+updated: 2026-05-06
 ---
 
 # Pixelle-Video

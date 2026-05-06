@@ -3,7 +3,7 @@ type: "entity"
 tags: ["open-source", "ai-tool", "automation"]
 summary: "一个**反大厂绑定**的 AI 编程智能体编排框架，通过整合多模型（Claude/GPT/Gemini等）与底层 AST/LSP 工具链，实现高度自动化、工程级别的代码生成与重构。"
 sources: ["raw/oh-my-openagent.md"]
-updated: "2026-05-06"
+updated: 2026-05-06
 ---
 
 # oh-my-openagent

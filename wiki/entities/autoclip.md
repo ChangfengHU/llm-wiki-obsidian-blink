@@ -3,7 +3,7 @@ type: "entity"
 tags: ["automation", "llm", "open-source", "video"]
 summary: "基于 LLM 的自动化视频二创工具，覆盖下载、语义理解、高光提取和切片生成。"
 sources: ["raw/autoclip.md"]
-updated: "2026-05-03"
+updated: 2026-05-06
 ---
 
 # autoclip

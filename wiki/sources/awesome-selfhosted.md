@@ -3,7 +3,7 @@ type: "source"
 tags: ["curated-list", "open-source", "self-hosted", "privacy"]
 summary: "GitHub 上最具影响力的自托管软件目录之一，聚合可自部署的自由软件网络服务与 Web 应用。"
 sources: ["raw/awesome-selfhosted.md"]
-updated: "2026-05-06"
+updated: 2026-05-06
 ---
 
 # awesome-selfhosted

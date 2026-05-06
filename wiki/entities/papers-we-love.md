@@ -3,7 +3,7 @@ type: "entity"
 tags: ["curated-list", "open-source", "knowledge-management"]
 summary: "面向计算机科学经典论文阅读与讨论的社区化目录项目，兼具资料精选与学习社群属性。"
 sources: ["raw/papers-we-love.md"]
-updated: "2026-05-06"
+updated: 2026-05-06
 ---
 
 # papers-we-love

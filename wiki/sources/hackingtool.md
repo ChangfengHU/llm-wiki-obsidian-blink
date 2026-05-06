@@ -3,7 +3,7 @@ type: "source"
 tags: ["open-source", "security"]
 summary: "基于 Python 的命令行安全工具整合包，将 185+ 开源安全工具封装为交互式菜单。"
 sources: ["raw/hackingtool.md"]
-updated: "2026-05-03"
+updated: 2026-05-06
 ---
 
 # hackingtool
