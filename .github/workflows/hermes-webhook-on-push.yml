@@ -3,8 +3,6 @@ name: Trigger Hermes Webhook on Push
 on:
   push:
     branches: [ "main" ]
-    paths:
-      - 'raw/**'
   workflow_dispatch:
     inputs:
       action:
@@ -46,6 +44,7 @@ jobs:
             "repo": "${GITHUB_REPOSITORY}",
             "ref": "${GITHUB_REF}",
             "sha": "${GITHUB_SHA}",
+            "before": "${{ github.event.before }}",
             "action": "${ACTION}",
             "question": "${QUESTION}",
             "save": ${SAVE},
