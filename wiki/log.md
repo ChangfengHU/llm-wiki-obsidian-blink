@@ -44,3 +44,10 @@
 - Changed markdown files: raw/recursion-guard-test-20260506-155321.md.
 - Updated Sources/Entities pages and index navigation.
 - Detailed run log: `logs/webhook-runs/gh-25446071114-1.md`.
+
+## [2026-05-06] update | incremental_build run_id=gh-25457105761-1
+- Synced `origin/main` with protective stash workflow (`stash -> fetch/checkout/pull --ff-only -> stash pop`).
+- Incremental diff base: `HEAD~1..HEAD` (fallback after empty `..2ce8fd1e548dc90546c01ac04316b8505e420735`).
+- Changed markdown files: raw/awesome-selfhosted.md.
+- Created `wiki/sources/awesome-selfhosted.md` and `wiki/entities/awesome-selfhosted.md`; updated indexes and relation overview.
+- Detailed run log: `logs/webhook-runs/gh-25457105761-1.md`.
