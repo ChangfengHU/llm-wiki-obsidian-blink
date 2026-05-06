@@ -17,3 +17,10 @@
 - Initialized/repaired structure: wiki/sources, wiki/entities, wiki/concepts, wiki/comparisons, wiki/overview, wiki/queries, logs/webhook-runs.
 - Generated/updated index and graph pages: index.md, wiki/index.md, wiki/overview/知识图谱关系.md, wiki/overview/开源ai工具知识图谱总览.md.
 - Created files: 43; updated files: 2.
+
+## [2026-05-06] update | incremental_build run_id=incremental_124
+- Synced `origin/main` with protective stash workflow (`stash -> fetch/checkout/pull --ff-only -> stash pop`).
+- Incremental diff base: `a430e1d..4a8f3f7`.
+- Created/updated/deleted affected pages in `wiki/sources/` and `wiki/entities/`.
+- Rebuilt `Sources`/`Entities` sections in `index.md` and `wiki/index.md`.
+- Detailed run log: `logs/webhook-runs/incremental_124.md`.

@@ -1,25 +1,23 @@
 ---
 type: "entity"
-tags: ["ai-tool", "automation", "open-source", "publishing"]
-summary: "一款专为微信公众号打造的纯前端 Markdown 排版引擎，解决跨平台富文本粘贴、图片防盗链报错和微信原生渲染塌陷。"
+tags: ["open-source", "ai-tool", "automation"]
+summary: "一款纯前端的现代 Markdown 排版引擎，核心解决**富文本粘贴净化**与**微信公众号排版（图片防盗链、样式塌陷）**的痛点。"
 sources: ["raw/raphael-publish.md"]
-updated: "2026-05-03"
+updated: "2026-05-06"
 ---
 
 # raphael-publish
 
 ## 概览
-一款专为微信公众号打造的纯前端 Markdown 排版引擎，解决跨平台富文本粘贴、图片防盗链报错和微信原生渲染塌陷。
+一款纯前端的现代 Markdown 排版引擎，核心解决**富文本粘贴净化**与**微信公众号排版（图片防盗链、样式塌陷）**的痛点。
 
 ## 关键事实
 - 主要来源：[[raw/raphael-publish.md]] 与 [[wiki/sources/raphael-publish|来源摘要]]。
-- 主题归类：publishing, ai-tool, automation。
-- 图谱位置：连接 [[wiki/concepts/ai-内容发布自动化|AI 内容发布自动化]]、[[wiki/concepts/markdown-发布排版|Markdown 发布排版]]。
+- 图谱位置：连接 [[wiki/concepts/开源工具目录|开源工具目录]]、[[wiki/concepts/知识管理|知识管理]]。
 
 ## 关系
-- 相关概念：[[wiki/concepts/ai-内容发布自动化|AI 内容发布自动化]]、[[wiki/concepts/markdown-发布排版|Markdown 发布排版]]。
+- 相关概念：[[wiki/concepts/开源工具目录|开源工具目录]]、[[wiki/concepts/知识管理|知识管理]]。
 - 相关总览：[[wiki/overview/开源ai工具知识图谱总览|开源 AI 工具知识图谱总览]]。
-- 横向比较：[[wiki/comparisons/开源ai工具项目横向比较|开源 AI 工具项目横向比较]]。
 
 ## 来源
 - [[raw/raphael-publish.md]]
