@@ -73,3 +73,10 @@
 - Changed markdown files: raw/HelloGitHub.md.
 - Created `wiki/sources/hellogithub.md` and `wiki/entities/hellogithub.md`; updated `index.md`, `wiki/index.md`, `wiki/overview/知识图谱关系.md`.
 - Detailed run log: `logs/webhook-runs/gh-25458462144-1.md`.
+
+## [2026-05-06] update | incremental_build run_id=gh-25459442379-1
+- Synced `origin/main` with protective stash workflow (`stash -> fetch/checkout/pull --ff-only -> stash pop`).
+- Incremental diff base: `1e2df1b9a811af0bcbf972028c5df8ac633d59b7..3be261f35f2dc218cc23be36c0abeb67ad6d255b`.
+- Changed markdown files: raw/papers-we-love.md.
+- Created `wiki/sources/papers-we-love.md` and `wiki/entities/papers-we-love.md`; updated `index.md`, `wiki/index.md`, `wiki/overview/知识图谱关系.md`.
+- Detailed run log: `logs/webhook-runs/gh-25459442379-1.md`.

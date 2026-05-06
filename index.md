@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Content catalog for the LLM Wiki repository. The canonical maintained knowledge layer is `wiki/`; raw sources remain immutable under `raw/`.
-> Last updated: 2026-05-06 | Total pages: 66 | Total indexed raw sources: 27
+> Last updated: 2026-05-06 | Total pages: 68 | Total indexed raw sources: 28
 
 ## Overview
 - [[wiki/overview/开源ai工具知识图谱总览|开源 AI 工具知识图谱总览]] — 汇总 raw 项目卡片形成的开源 AI 工具与自动化知识图谱。
@@ -25,6 +25,7 @@
 - [[wiki/sources/notebooklm-py|notebooklm-py]] — 这是一个非官方的 Google NotebookLM Python API 与 CLI 工具，让开发者和 AI Agent 能以编程方式全面接管 NotebookLM，并解锁了网页端未开放的高级导出功能。
 - [[wiki/sources/oh-my-openagent|oh-my-openagent]] — 一个**反大厂绑定**的 AI 编程智能体编排框架，通过整合多模型（Claude/GPT/Gemini等）与底层 AST/LSP 工具链，实现高度自动化、工程级别的代码生成与重构。
 - [[wiki/sources/openscreen|openscreen]] — Electron 开源录屏与视频美化工具，对标 Screen Studio，面向产品演示视频制作。
+- [[wiki/sources/papers-we-love|papers-we-love]] — 社区驱动的经典计算机科学论文精选目录与讨论网络，面向长期阅读与知识沉淀。
 - [[wiki/sources/pixelle-video|pixelle-video]] — 基于 LLM 和 ComfyUI 的全自动短视频生成引擎，从主题到文案、画面、配音和剪辑端到端生成。
 - [[wiki/sources/python-mail-to-kindle|python-mail-to-kindle]] — 一个基于 Python 和 Calibre CLI 的自动化脚本，用于抓取邮箱中的电子书附件、转换格式并自动推送到 Kindle。
 - [[wiki/sources/raphael-publish|raphael-publish]] — 一款纯前端的现代 Markdown 排版引擎，核心解决**富文本粘贴净化**与**微信公众号排版（图片防盗链、样式塌陷）**的痛点。
@@ -51,6 +52,7 @@
 - [[wiki/entities/notebooklm-py|notebooklm-py]] — 这是一个非官方的 Google NotebookLM Python API 与 CLI 工具，让开发者和 AI Agent 能以编程方式全面接管 NotebookLM，并解锁了网页端未开放的高级导出功能。
 - [[wiki/entities/oh-my-openagent|oh-my-openagent]] — 一个**反大厂绑定**的 AI 编程智能体编排框架，通过整合多模型（Claude/GPT/Gemini等）与底层 AST/LSP 工具链，实现高度自动化、工程级别的代码生成与重构。
 - [[wiki/entities/openscreen|openscreen]] — Electron 开源录屏与视频美化工具，对标 Screen Studio，面向产品演示视频制作。
+- [[wiki/entities/papers-we-love|papers-we-love]] — 面向计算机科学经典论文阅读与讨论的社区化目录项目，兼具资料精选与学习社群属性。
 - [[wiki/entities/pixelle-video|Pixelle-Video]] — 基于 LLM 和 ComfyUI 的全自动短视频生成引擎，从主题到文案、画面、配音和剪辑端到端生成。
 - [[wiki/entities/python-mail-to-kindle|python-mail-to-kindle]] — 一个基于 Python 和 Calibre CLI 的自动化脚本，用于抓取邮箱中的电子书附件、转换格式并自动推送到 Kindle。
 - [[wiki/entities/raphael-publish|raphael-publish]] — 一款纯前端的现代 Markdown 排版引擎，核心解决**富文本粘贴净化**与**微信公众号排版（图片防盗链、样式塌陷）**的痛点。
