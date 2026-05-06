@@ -2,8 +2,8 @@
 type: "concept"
 tags: ["agent", "ai-tool", "automation", "llm", "overview"]
 summary: "可跨平台接入、调用工具并在长期使用中沉淀技能和用户画像的 Agent 系统。"
-sources: ["raw/dify.md", "raw/hermes-agent.md"]
-updated: "2026-05-03"
+sources: ["raw/dify.md", "raw/hermes-agent.md", "raw/ai-trend-analysis-20260506-160559.md"]
+updated: "2026-05-06"
 ---
 
 # 自主 Agent 框架
@@ -14,6 +14,7 @@ updated: "2026-05-03"
 ## 本库中的实例
 - [[wiki/entities/dify|dify]]
 - [[wiki/entities/hermes-agent|hermes-agent]]
+- [[wiki/entities/ai-trend-analysis-20260506-160559|ai-trend-analysis-20260506-160559]]
 
 ## 关联概念
 - [[wiki/concepts/llm-工具编排|LLM 工具编排]]
@@ -23,3 +24,4 @@ updated: "2026-05-03"
 ## 来源
 - [[raw/dify.md]]
 - [[raw/hermes-agent.md]]
+- [[raw/ai-trend-analysis-20260506-160559.md]]
