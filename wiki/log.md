@@ -37,3 +37,10 @@
 - Changed markdown files: raw/webhook-action-test-20260506-154023.md.
 - Updated Sources index and affected wiki source pages.
 - Detailed run log: `logs/webhook-runs/gh-25445428103-1.md`.
+
+## [2026-05-06] update | incremental_build run_id=gh-25446071114-1
+- Synced `origin/main` with protective stash workflow (`stash -> fetch/checkout/pull --ff-only -> stash pop`).
+- Incremental diff base: `f3b89b105c1010150816151da245019338355a22..6cf4de94dec01be1f51100e92e1d0c886248a35e`.
+- Changed markdown files: raw/recursion-guard-test-20260506-155321.md.
+- Updated Sources/Entities pages and index navigation.
+- Detailed run log: `logs/webhook-runs/gh-25446071114-1.md`.
