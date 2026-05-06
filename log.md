@@ -30,3 +30,10 @@
 - Filed query page: no
 - Health check summary: core schema/index/log present; wiki layer has 53 markdown pages; detected 20 potential broken wikilinks; `wiki/queries/` directory missing.
 - Detailed run log: `logs/webhook-runs/callback-check-1.md`.
+
+## [2026-05-06] update | incremental_build run_id=gh-25445428103-1
+- Synced `origin/main` with protective stash workflow (`stash -> fetch/checkout/pull --ff-only -> stash pop`).
+- Incremental diff base: `HEAD~1..HEAD`.
+- Changed markdown files: raw/webhook-action-test-20260506-154023.md.
+- Updated Sources index and affected wiki source pages.
+- Detailed run log: `logs/webhook-runs/gh-25445428103-1.md`.

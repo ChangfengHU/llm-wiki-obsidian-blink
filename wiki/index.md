@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Content catalog for the LLM Wiki repository. The canonical maintained knowledge layer is `wiki/`; raw sources remain immutable under `raw/`.
-> Last updated: 2026-05-06 | Total pages: 53 | Total indexed raw sources: 18
+> Last updated: 2026-05-06 | Total pages: 56 | Total indexed raw sources: 19
 
 ## Overview
 - [[wiki/overview/开源ai工具知识图谱总览|开源 AI 工具知识图谱总览]] — 汇总 raw 项目卡片形成的开源 AI 工具与自动化知识图谱。
@@ -21,14 +21,14 @@
 - [[wiki/sources/notebooklm-py|notebooklm-py]] — 这是一个非官方的 Google NotebookLM Python API 与 CLI 工具，让开发者和 AI Agent 能以编程方式全面接管 NotebookLM，并解锁了网页端未开放的高级导出功能。
 - [[wiki/sources/oh-my-openagent|oh-my-openagent]] — 一个**反大厂绑定**的 AI 编程智能体编排框架，通过整合多模型（Claude/GPT/Gemini等）与底层 AST/LSP 工具链，实现高度自动化、工程级别的代码生成与重构。
 - [[wiki/sources/openscreen|openscreen]] — Electron 开源录屏与视频美化工具，对标 Screen Studio，面向产品演示视频制作。
-- [[wiki/sources/pixelle-video|Pixelle-Video]] — 基于 LLM 和 ComfyUI 的全自动短视频生成引擎，从主题到文案、画面、配音和剪辑端到端生成。
+- [[wiki/sources/pixelle-video|pixelle-video]] — 基于 LLM 和 ComfyUI 的全自动短视频生成引擎，从主题到文案、画面、配音和剪辑端到端生成。
 - [[wiki/sources/python-mail-to-kindle|python-mail-to-kindle]] — 一个基于 Python 和 Calibre CLI 的自动化脚本，用于抓取邮箱中的电子书附件、转换格式并自动推送到 Kindle。
 - [[wiki/sources/raphael-publish|raphael-publish]] — 一款纯前端的现代 Markdown 排版引擎，核心解决**富文本粘贴净化**与**微信公众号排版（图片防盗链、样式塌陷）**的痛点。
-- [[wiki/sources/raphael-publish分析报告|raphael-publish 分析报告]] — raphael-publish 的技术尽职调查/分析材料，补充其定位、风险和适用边界。
-- [[wiki/sources/scrapling|Scrapling]] — 一个具备“自适应防断链”和“开箱即用过反爬”能力的现代 Python 爬虫框架，支持从单次请求无缝扩展到大规模并发抓取，并原生适配 AI Agent。
+- [[wiki/sources/raphael-publish分析报告|raphael-publish分析报告]] — raphael-publish 的技术尽职调查/分析材料，补充其定位、风险和适用边界。
+- [[wiki/sources/scrapling|scrapling]] — 一个具备“自适应防断链”和“开箱即用过反爬”能力的现代 Python 爬虫框架，支持从单次请求无缝扩展到大规模并发抓取，并原生适配 AI Agent。
 - [[wiki/sources/the-book-of-secret-knowledge|the-book-of-secret-knowledge]] — 这是一个面向系统管理员、DevOps 和安全人员的顶级“黑客百宝箱”，汇总了海量高质量的实用工具、Shell 单行脚本、安全备忘录和极客技巧。
 - [[wiki/sources/warp|warp]] — 一款基于 Rust 构建的、将传统终端重塑为“AI 智能体开发环境”的现代化终端模拟器，支持 IDE 级别的文本编辑和原生 AI 辅助。
-
+- [[wiki/sources/webhook-action-test-20260506-154023|webhook-action-test-20260506-154023]] — Webhook 增量触发测试原始记录，用于验证 GitHub Action 与 Hermes webhook 联动链路。
 ## Entities
 - [[wiki/entities/auto-like-my-gf-insta-pic|auto-like-my-gf-insta-pic]] — 这是一个主打“男友求生欲”的 Node.js 娱乐脚本，通过定时任务轮询 Instagram API，自动秒赞特定用户的最新帖子并推送到 Slack。
 - [[wiki/entities/autoclip|autoclip]] — 基于 LLM 的自动化视频二创工具，覆盖下载、语义理解、高光提取和切片生成。
