@@ -13,7 +13,6 @@ updated: "2026-05-07"
 
 ## 本库中的实例
 - [[wiki/entities/raphael-publish|raphael-publish]]
-- [[wiki/entities/raphael-publish分析报告|raphael-publish分析报告]]
 
 ## 关联概念
 - [[wiki/concepts/ai-内容发布自动化|AI 内容发布自动化]]

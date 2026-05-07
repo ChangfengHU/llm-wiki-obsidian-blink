@@ -105,3 +105,10 @@
 - Changed markdown files under `raw/**/*.md`: raw/raphael-publish.md.
 - Updated affected `wiki/sources/raphael-publish.md`, `wiki/entities/raphael-publish.md`, `log.md`, `wiki/log.md`, and run log.
 - Detailed run log: `logs/webhook-runs/gh-25496127090-1.md`.
+
+## [2026-05-07] update | incremental_build run_id=gh-25496140596-1
+- Synced `origin/main` with protective stash workflow (`stash -> fetch/checkout/pull --ff-only -> stash pop`).
+- Incremental diff base: `9687a8f29d7df8d8c7f9d31ae0d1b95a7c4fe831..8706e776163ae439002975ea6a1bdefa608bd53c`; fallback `HEAD~1..HEAD` (both hit `raw/raphael-publish.md`).
+- Changed markdown files under `raw/**/*.md`: raw/raphael-publish.md.
+- Updated affected `wiki/sources/`, `wiki/entities/`, `wiki/concepts/`, `wiki/overview/知识图谱关系.md`, and indexes.
+- Detailed run log: `logs/webhook-runs/gh-25496140596-1.md`.

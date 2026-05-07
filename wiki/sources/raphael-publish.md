@@ -13,8 +13,9 @@ updated: 2026-05-07
 
 ## 关键要点
 - 资料类型：原始项目卡片/分析材料，来源文件：[[raw/raphael-publish.md]]。
+- 关键属性：TypeScript 项目，GitHub stars=753（raw 记录时间：2026-05-07 12:35:43）。
 - 关联实体：[[wiki/entities/raphael-publish|raphael-publish]]。
-- 关联概念：[[wiki/concepts/开源工具目录|开源工具目录]]、[[wiki/concepts/知识管理|知识管理]]。
+- 关联概念：[[wiki/concepts/markdown-发布排版|Markdown 发布排版]]、[[wiki/concepts/ai-内容发布自动化|AI 内容发布自动化]]。
 
 ## 适用阅读路径
 先读 [[wiki/entities/raphael-publish|raphael-publish]]，再跳转到 [[wiki/concepts/开源工具目录|开源工具目录]] 和 [[wiki/overview/开源ai工具知识图谱总览|开源 AI 工具知识图谱总览]]。

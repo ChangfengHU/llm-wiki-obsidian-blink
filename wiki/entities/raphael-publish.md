@@ -13,7 +13,8 @@ updated: 2026-05-07
 
 ## 关键事实
 - 主要来源：[[raw/raphael-publish.md]] 与 [[wiki/sources/raphael-publish|来源摘要]]。
-- 图谱位置：连接 [[wiki/concepts/开源工具目录|开源工具目录]]、[[wiki/concepts/知识管理|知识管理]]、[[wiki/concepts/markdown-发布排版|Markdown 发布排版]]、[[wiki/concepts/ai-内容发布自动化|AI 内容发布自动化]]。
+- 项目属性：TypeScript；GitHub stars=753（raw 更新时间：2026-05-07 12:35:43）。
+- 图谱位置：连接 [[wiki/concepts/markdown-发布排版|Markdown 发布排版]]、[[wiki/concepts/ai-内容发布自动化|AI 内容发布自动化]]。
 
 ## 关系
 - 相关概念：[[wiki/concepts/开源工具目录|开源工具目录]]、[[wiki/concepts/知识管理|知识管理]]、[[wiki/concepts/markdown-发布排版|Markdown 发布排版]]、[[wiki/concepts/ai-内容发布自动化|AI 内容发布自动化]]。

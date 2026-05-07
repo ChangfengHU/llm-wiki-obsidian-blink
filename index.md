@@ -4,7 +4,7 @@
 
 ## Overview
 - [[wiki/overview/开源ai工具知识图谱总览|开源ai工具知识图谱总览]] — - 更新时间：2026-05-06
-- [[wiki/overview/知识图谱关系|知识图谱关系]] — - updated: 2026-05-06
+- [[wiki/overview/知识图谱关系|知识图谱关系]] — - updated: 2026-05-07
 
 ## Sources
 - [[wiki/sources/ai-trend-analysis-20260506-160559|ai-trend-analysis-20260506-160559]] — 2026Q2 AI 趋势分析：Agent 落地、成本性能优化、知识图谱化与合规治理前置。
