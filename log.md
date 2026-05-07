@@ -86,3 +86,24 @@
 - Initialized/repaired structure: wiki/sources, wiki/entities, wiki/concepts, wiki/comparisons, wiki/overview, wiki/queries, logs/webhook-runs.
 - Generated/updated index and graph pages: index.md, wiki/index.md, wiki/overview/知识图谱关系.md, wiki/overview/开源ai工具知识图谱总览.md.
 - Detailed run log: logs/webhook-runs/manual-full-20260506-2041.md.
+
+## [2026-05-06] update | incremental_build run_id=gh-25460069106-1
+- Synced `origin/main` with protective stash workflow (`stash -> fetch/checkout/pull --ff-only -> stash pop`).
+- Incremental diff base: `a85285272e9772fd07fb1fd96737a14656b55cf1..f90d7e57ca0e6f39abb5e66e607b01ed836ad29c`; fallback `HEAD~1..HEAD` (both empty for `*.md`).
+- Changed markdown files under `raw/**/*.md`: none.
+- Result: `skipped:no_raw_changes` (no wiki write/commit/push).
+- Detailed run log: `logs/webhook-runs/gh-25460069106-1.md`.
+
+## [2026-05-07] update | incremental_build run_id=gh-25469675700-1
+- Synced `origin/main` with protective stash workflow (`stash -> fetch/checkout/pull --ff-only -> stash pop`).
+- Incremental diff base: `7c82da3c24dd88e22a271a9b8f18717ee846f07e..661739b43565aa1573dede88ccfc4efb28df74bd`.
+- Changed markdown files under `raw/**/*.md`: raw/zed.md.
+- Created `wiki/sources/zed.md` and `wiki/entities/zed.md`; updated `index.md`, `wiki/index.md`, `wiki/log.md`, `wiki/overview/知识图谱关系.md`.
+- Detailed run log: `logs/webhook-runs/gh-25469675700-1.md`.
+
+## [2026-05-07] update | incremental_build run_id=gh-25469665279-1
+- Synced `origin/main` with protective stash workflow (`stash -> fetch/checkout/pull --ff-only -> stash pop`).
+- Incremental diff base: `f90d7e57ca0e6f39abb5e66e607b01ed836ad29c..7c82da3c24dd88e22a271a9b8f18717ee846f07e`.
+- Changed markdown files under `raw/**/*.md`: raw/ruflo.md.
+- Updated affected `wiki/sources/`, `wiki/entities/`, `wiki/concepts/`, `wiki/overview/知识图谱关系.md`, and indexes.
+- Detailed run log: `logs/webhook-runs/gh-25469665279-1.md`.

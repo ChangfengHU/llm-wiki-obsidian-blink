@@ -1,6 +1,6 @@
 # Wiki Index
 
-> Last updated: 2026-05-06 | Total pages: 74 | Total indexed raw sources: 28
+> Last updated: 2026-05-07 | Total pages: 76 | Total indexed raw sources: 29
 
 ## Overview
 - [[wiki/overview/开源ai工具知识图谱总览|开源ai工具知识图谱总览]] — - 更新时间：2026-05-06
@@ -31,9 +31,11 @@
 - [[wiki/sources/raphael-publish|raphael-publish]] — "一款纯前端的现代 Markdown 排版引擎，核心解决**富文本粘贴净化**与**微信公众号排版（图片防盗链、样式塌陷）**的痛点。"
 - [[wiki/sources/raphael-publish分析报告|raphael-publish分析报告]] — "raphael-publish 的技术尽职调查/分析材料，补充其定位、风险和适用边界。"
 - [[wiki/sources/recursion-guard-test-20260506-155321|recursion-guard-test-20260506-155321]] — Webhook 递归防护测试记录：首轮应构建，二轮在 raw 无新增时应跳过。
+- [[wiki/sources/ruflo|ruflo]] — "面向 Claude 的多智能体编排平台，支持 Swarm 协作、联邦通信、记忆与企业级自动化工作流。"
 - [[wiki/sources/scrapling|scrapling]] — "一个具备“自适应防断链”和“开箱即用过反爬”能力的现代 Python 爬虫框架，支持从单次请求无缝扩展到大规模并发抓取，并原生适配 AI Agent。"
 - [[wiki/sources/the-book-of-secret-knowledge|the-book-of-secret-knowledge]] — "这是一个面向系统管理员、DevOps 和安全人员的顶级“黑客百宝箱”，汇总了海量高质量的实用工具、Shell 单行脚本、安全备忘录和极客技巧。"
 - [[wiki/sources/warp|warp]] — "一款基于 Rust 构建的、将传统终端重塑为“AI 智能体开发环境”的现代化终端模拟器，支持 IDE 级别的文本编辑和原生 AI 辅助。"
+- [[wiki/sources/zed|zed]] — "高性能 Rust 代码编辑器，主打低延迟体验与多人实时协作，并集成原生 AI 编程工作流。"
 - [[wiki/sources/webhook-action-test-20260506-154023|webhook-action-test-20260506-154023]] — "Webhook 增量触发测试原始记录，用于验证 GitHub Action 与 Hermes webhook 联动链路。"
 
 ## Entities
@@ -61,9 +63,11 @@
 - [[wiki/entities/raphael-publish|raphael-publish]] — "一款纯前端的现代 Markdown 排版引擎，核心解决**富文本粘贴净化**与**微信公众号排版（图片防盗链、样式塌陷）**的痛点。"
 - [[wiki/entities/raphael-publish分析报告|raphael-publish分析报告]] — 好的,我将对 `raphael-publish` 这个 GitHub 项目进行深入分析,并为您提供一份详尽的技术分析报告。
 - [[wiki/entities/recursion-guard-test-20260506-155321|recursion-guard-test-20260506-155321]] — 用于验证 webhook 增量构建在无 raw 新增时自动跳过的测试条目。
+- [[wiki/entities/ruflo|ruflo]] — "专为 Claude Code 设计的多智能体编排平台，强调 Swarm 协作、自学习记忆与联邦通信。"
 - [[wiki/entities/scrapling|scrapling]] — "一个具备“自适应防断链”和“开箱即用过反爬”能力的现代 Python 爬虫框架，支持从单次请求无缝扩展到大规模并发抓取，并原生适配 AI Agent。"
 - [[wiki/entities/the-book-of-secret-knowledge|the-book-of-secret-knowledge]] — "这是一个面向系统管理员、DevOps 和安全人员的顶级“黑客百宝箱”，汇总了海量高质量的实用工具、Shell 单行脚本、安全备忘录和极客技巧。"
 - [[wiki/entities/warp|warp]] — "一款基于 Rust 构建的、将传统终端重塑为“AI 智能体开发环境”的现代化终端模拟器，支持 IDE 级别的文本编辑和原生 AI 辅助。"
+- [[wiki/entities/zed|zed]] — "高性能 Rust 代码编辑器，主打低延迟体验与多人实时协作，并集成原生 AI 编程工作流。"
 - [[wiki/entities/webhook-action-test-20260506-154023|webhook-action-test-20260506-154023]] — - utc: 2026-05-06T15:40:23Z
 
 ## Concepts
