@@ -107,3 +107,16 @@
 - Changed markdown files under `raw/**/*.md`: raw/ruflo.md.
 - Updated affected `wiki/sources/`, `wiki/entities/`, `wiki/concepts/`, `wiki/overview/知识图谱关系.md`, and indexes.
 - Detailed run log: `logs/webhook-runs/gh-25469665279-1.md`.
+
+## [2026-05-07] update | incremental_build run_id=gh-25496112884-1
+- Synced `origin/main` with protective stash workflow (`stash -> fetch/checkout/pull --ff-only -> stash pop`).
+- Incremental diff base: `e5053506f51353bbbfad0bf4eeaf6e528e7f7947..e0352f7b3e492041c9e5d900bcf09cff6aa0abbe`.
+- Changed markdown files under `raw/**/*.md`: raw/raphael-publish.md.
+- Updated affected `wiki/sources/`, `wiki/entities/`, `wiki/concepts/`, `wiki/overview/知识图谱关系.md`.
+- Detailed run log: `logs/webhook-runs/gh-25496112884-1.md`.
+
+## [2026-05-07] update | incremental_build run_id=gh-25496127090-1
+- Incremental diff base: `e0352f7b3e492041c9e5d900bcf09cff6aa0abbe..9687a8f29d7df8d8c7f9d31ae0d1b95a7c4fe831`.
+- Changed markdown files under `raw/**/*.md`: raw/raphael-publish.md.
+- Updated affected `wiki/sources/raphael-publish.md`, `wiki/entities/raphael-publish.md`, `log.md`, `wiki/log.md`, and run log.
+- Detailed run log: `logs/webhook-runs/gh-25496127090-1.md`.
