@@ -1,6 +1,6 @@
 # Wiki Index
 
-> Last updated: 2026-05-07 | Total pages: 76 | Total indexed raw sources: 29
+> Last updated: 2026-05-08 | Total pages: 76 | Total indexed raw sources: 30
 
 ## Overview
 - [[wiki/overview/开源ai工具知识图谱总览|开源ai工具知识图谱总览]] — - 更新时间：2026-05-06
@@ -18,6 +18,7 @@
 - [[wiki/sources/claude-mem|claude-mem]] — "为 Claude Code（及同类 AI 终端工具）打造的**持久化记忆插件**，通过 AI 压缩与 RAG 技术，让大模型在跨会话编程时“记住”你的历史上下文和技术决策。"
 - [[wiki/sources/hackingtool|hackingtool]] — "基于 Python 的命令行安全工具整合包，将 185+ 开源安全工具封装为交互式菜单。"
 - [[wiki/sources/hellogithub|hellogithub]] — "面向入门开发者的开源项目月刊与精选导航，强调‘有趣+可上手’。"
+- [[wiki/sources/html-ppt-skill|html-ppt-skill]] — HTML PPT Studio — AgentSkill with 24 themes, 31 layouts, 20+ animations for building professional HTML presentations
 - [[wiki/sources/hermes-agent|hermes-agent]] — "模型无关、支持多平台接入并具备自我学习闭环的跨端 AI Agent 框架。"
 - [[wiki/sources/maigret|maigret]] — 🎯 **一句话定位**
 - [[wiki/sources/mapcn|mapcn]] — "面向 React 的 shadcn/ui 风格地图组件库，基于 MapLibre GL，支持 Tailwind 和复制粘贴式集成。"

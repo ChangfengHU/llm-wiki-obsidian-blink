@@ -127,3 +127,9 @@
 - Changed markdown files under `raw/**/*.md`: raw/raphael-publish.md.
 - Updated affected `wiki/sources/`, `wiki/entities/`, `wiki/concepts/`, `wiki/overview/知识图谱关系.md`, and indexes.
 - Detailed run log: `logs/webhook-runs/gh-25496140596-1.md`.
+## [2026-05-08] ingest | html-ppt-skill
+- raw/html-ppt-skill.md
+- wiki/sources/html-ppt-skill.md
+- wiki/entities/html-ppt-skill.md (updated)
+- index.md (updated)
+

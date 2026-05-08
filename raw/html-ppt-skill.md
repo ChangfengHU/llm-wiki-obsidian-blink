@@ -1,3 +1,8 @@
+---
+source_url: https://github.com/lewislulu/html-ppt-skill
+ingested: 2026-05-08
+sha256: af36d497ef33fa0e1777a3f7c5d7da518a7ff98f361d698d0adeb00f8853ade6
+---
 # 📦 项目：html-ppt-skill
 
 **项目主页**：
