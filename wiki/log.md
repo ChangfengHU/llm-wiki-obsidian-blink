@@ -119,3 +119,7 @@
 - Created `wiki/sources/html-ppt-skill.md` and `wiki/entities/html-ppt-skill.md`; updated `index.md`, `wiki/index.md`, `wiki/log.md`, `wiki/overview/知识图谱关系.md`.
 - Detailed run log: `logs/webhook-runs/gh-25530949671-1.md`.
 
+## [2026-05-08] ingest | hello-agents
+- Created wiki/sources/hello-agents.md
+- Created wiki/entities/hello-agents.md
+- Updated wiki/index.md

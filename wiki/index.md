@@ -1,6 +1,6 @@
 # Wiki Index
 
-> Last updated: 2026-05-08 | Total pages: 78 | Total indexed raw sources: 30
+> Last updated: 2026-05-08 | Total pages: 82 | Total indexed raw sources: 33
 
 ## Overview
 - [[wiki/overview/开源ai工具知识图谱总览|开源ai工具知识图谱总览]] — - 更新时间：2026-05-06
@@ -39,6 +39,7 @@
 - [[wiki/sources/webhook-action-test-20260506-154023|webhook-action-test-20260506-154023]] — "Webhook 增量触发测试原始记录，用于验证 GitHub Action 与 Hermes webhook 联动链路。"
 - [[wiki/sources/html-ppt-skill|html-ppt-skill]] — HTML PPT Studio 是一个无需构建步骤的纯静态 HTML/CSS/JS 幻灯片制作引擎，同时也是专为 AI Agent 设计的技能库（AgentSkill），提供 24 主题、31 布局、20+ 动画。
 
+- [[wiki/sources/hello-agents|hello-agents]] — Datawhale 社区开源的《从零开始构建智能体》系统性中文教程，涵盖 LLM 基础、经典 Agent 范式、底层框架手写及前沿技术。
 ## Entities
 - [[wiki/entities/ai-trend-analysis-20260506-160559|ai-trend-analysis-20260506-160559]] — 面向 2026Q2 的 AI 产业趋势观察条目，聚焦 Agent 落地、知识图谱化与治理合规。
 - [[wiki/entities/archon|archon]] — **项目主页**：
@@ -72,6 +73,7 @@
 - [[wiki/entities/webhook-action-test-20260506-154023|webhook-action-test-20260506-154023]] — - utc: 2026-05-06T15:40:23Z
 - [[wiki/entities/html-ppt-skill|html-ppt-skill]] — HTML PPT Studio 是一个无需构建步骤的纯静态 HTML/CSS/JS 幻灯片制作引擎，同时也是专为 AI Agent 设计的技能库（AgentSkill）。
 
+- [[wiki/entities/hello-agents|hello-agents]] — Datawhale 社区开源的《从零开始构建智能体》系统性中文教程。
 ## Concepts
 - [[wiki/concepts/ai-内容发布自动化|ai-内容发布自动化]] — "围绕内容生成、排版、跨平台发布和渠道适配的自动化工具链。"
 - [[wiki/concepts/llm-工具编排|llm-工具编排]] — "通过 LLM 调度外部工具、工作流或 UI 操作，把自然语言意图转化为可执行结果。"
