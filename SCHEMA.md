@@ -1,5 +1,11 @@
 # Wiki Schema
 
+> Canonical schema notice: This repository's canonical schema is `TheSchema.md`.
+> `SCHEMA.md` is a compatibility/bridge document for generic llm-wiki tooling.
+> If any conflict exists, follow: webhook prompt > TheSchema.md > SCHEMA.md > generic skill defaults.
+
+
+
 ## Domain
 本仓库维护一个面向 Obsidian 的 LLM Wiki / 知识图谱，当前原始资料主要是 GitHub 开源项目、AI 工具、知识管理与自动化工具的项目卡片和分析材料。
 

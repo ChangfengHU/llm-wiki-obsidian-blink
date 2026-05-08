@@ -18,6 +18,12 @@ on:
         required: false
         default: "true"
 
+# Prevent multiple webhooks from running concurrently on the same repo.
+# This avoids git stash pop race conditions when untracked log files collide.
+concurrency:
+  group: hermes-webhook-${{ github.repository }}
+  cancel-in-progress: false
+
 jobs:
   notify-hermes:
     runs-on: ubuntu-latest
@@ -55,7 +61,7 @@ jobs:
           }
           JSON
 
-          echo "Payload built:" 
+          echo "Payload built:"
           cat payload.json
 
       - name: Call Hermes webhook

@@ -1,6 +1,6 @@
 # Wiki Index
 
-> Last updated: 2026-05-07 | Total pages: 76 | Total indexed raw sources: 29
+> Last updated: 2026-05-08 | Total pages: 78 | Total indexed raw sources: 30
 
 ## Overview
 - [[wiki/overview/开源ai工具知识图谱总览|开源ai工具知识图谱总览]] — - 更新时间：2026-05-06
@@ -37,6 +37,7 @@
 - [[wiki/sources/warp|warp]] — "一款基于 Rust 构建的、将传统终端重塑为“AI 智能体开发环境”的现代化终端模拟器，支持 IDE 级别的文本编辑和原生 AI 辅助。"
 - [[wiki/sources/zed|zed]] — "高性能 Rust 代码编辑器，主打低延迟体验与多人实时协作，并集成原生 AI 编程工作流。"
 - [[wiki/sources/webhook-action-test-20260506-154023|webhook-action-test-20260506-154023]] — "Webhook 增量触发测试原始记录，用于验证 GitHub Action 与 Hermes webhook 联动链路。"
+- [[wiki/sources/html-ppt-skill|html-ppt-skill]] — HTML PPT Studio 是一个无需构建步骤的纯静态 HTML/CSS/JS 幻灯片制作引擎，同时也是专为 AI Agent 设计的技能库（AgentSkill），提供 24 主题、31 布局、20+ 动画。
 
 ## Entities
 - [[wiki/entities/ai-trend-analysis-20260506-160559|ai-trend-analysis-20260506-160559]] — 面向 2026Q2 的 AI 产业趋势观察条目，聚焦 Agent 落地、知识图谱化与治理合规。
@@ -69,6 +70,7 @@
 - [[wiki/entities/warp|warp]] — "一款基于 Rust 构建的、将传统终端重塑为“AI 智能体开发环境”的现代化终端模拟器，支持 IDE 级别的文本编辑和原生 AI 辅助。"
 - [[wiki/entities/zed|zed]] — "高性能 Rust 代码编辑器，主打低延迟体验与多人实时协作，并集成原生 AI 编程工作流。"
 - [[wiki/entities/webhook-action-test-20260506-154023|webhook-action-test-20260506-154023]] — - utc: 2026-05-06T15:40:23Z
+- [[wiki/entities/html-ppt-skill|html-ppt-skill]] — HTML PPT Studio 是一个无需构建步骤的纯静态 HTML/CSS/JS 幻灯片制作引擎，同时也是专为 AI Agent 设计的技能库（AgentSkill）。
 
 ## Concepts
 - [[wiki/concepts/ai-内容发布自动化|ai-内容发布自动化]] — "围绕内容生成、排版、跨平台发布和渠道适配的自动化工具链。"

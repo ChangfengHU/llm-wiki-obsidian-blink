@@ -112,3 +112,10 @@
 - Changed markdown files under `raw/**/*.md`: raw/raphael-publish.md.
 - Updated affected `wiki/sources/`, `wiki/entities/`, `wiki/concepts/`, `wiki/overview/知识图谱关系.md`, and indexes.
 - Detailed run log: `logs/webhook-runs/gh-25496140596-1.md`.
+## [2026-05-08] update | incremental_build run_id=gh-25530949671-1
+- Synced `origin/main` with protective stash workflow (`stash -> fetch/checkout/pull --ff-only -> stash pop`).
+- Incremental diff base: `e629725c027a23c979e49e56c4faeb6dca3a8c4b..35fe76d65b852ebe664e6bbb22c61fa9c8bf47bf`.
+- Changed markdown files under `raw/**/*.md`: raw/html-ppt-skill.md.
+- Created `wiki/sources/html-ppt-skill.md` and `wiki/entities/html-ppt-skill.md`; updated `index.md`, `wiki/index.md`, `wiki/log.md`, `wiki/overview/知识图谱关系.md`.
+- Detailed run log: `logs/webhook-runs/gh-25530949671-1.md`.
+
