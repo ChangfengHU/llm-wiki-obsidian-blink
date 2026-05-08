@@ -7,77 +7,81 @@
 HTML PPT Studio — AgentSkill with 24 themes, 31 layouts, 20+ animations for building professional HTML presentations
 
 **技术标签**：
-HTML Presentation, AI Agent Skill, CSS/Canvas Animations, No-build
+HTML, CSS, Presentation, AgentSkill, Canvas
 
 **language**：
 HTML
 
 **stars**：
-2958
+2964
 
 **date**：
-2026-05-08 01:11:23
+2026-05-08 01:47:54
 
 ---
 
 ### 🎯 一句话定位
-【FACT】一个无需构建步骤的纯静态 HTML/CSS/JS 幻灯片制作引擎，同时也是专为 AI Agent 设计的技能库（AgentSkill），允许通过自然语言指令直接生成专业级网页 PPT。
-*来源：GitHub README*
+【FACT】这是一个**无需构建步骤的纯静态 HTML/CSS/JS 幻灯片渲染引擎**，同时作为一个 **AgentSkill**，旨在让 AI 助手（Agents）通过自然语言指令直接生成包含丰富动效和专业排版的演示文稿。
+*来源：GitHub README ("A world-class AgentSkill...", "pure static HTML/CSS/JS, no build step")*
 
 ### ⚡ 核心功能
 【FACT】
-1. **AI Agent 技能集成**：通过 `npx skills add` 注册后，AI 可直接接收 Prompt（如“做一份赛博朋克风的技术分享”）并输出对应幻灯片。
-2. **零构建纯静态架构**：完全基于 HTML/CSS/Vanilla JS，无需 Webpack/Vite 等构建工具，开箱即用。
-3. **海量内置资产**：内置 36 种 CSS 主题、15 套完整模板、31 种页面布局以及 47 种动画（包含 20 种手写 Canvas 炫酷特效如知识图谱、粒子爆炸等）。
-4. **创新的演讲者模式**：按 `S` 键开启，利用 `BroadcastChannel` 实现双窗口同步，通过加载带 `?preview=N` 参数的 `iframe` 实现与观众视图 100% 像素级一致的无刷新预览。
-5. **自动化导出**：内置 `render.sh` 脚本，可通过 Headless Chrome 将幻灯片渲染导出为图片。
-*来源：GitHub README & 代码结构*
+1. **AI 技能集成 (AgentSkill)**：提供 `SKILL.md`，可通过一行命令 (`npx skills add`) 接入 AI Agent 运行时，支持通过自然语言（如“做一份8页的技术分享”）直接生成 PPT。
+2. **纯静态零构建**：完全基于 HTML/CSS/JS，无需 Webpack/Vite 等打包工具，通过切换 `<link>` 标签即可全局更换主题。
+3. **专业级演讲者模式**：按 `S` 键开启双屏模式。使用 `BroadcastChannel` 实现主窗口与演讲者窗口的无延迟同步，并通过 `iframe` 配合 URL 参数实现完美像素级预览（无重绘、无闪烁）。
+4. **海量视觉资产预设**：内置 36 种主题、15 套完整模板、31 种页面布局。
+5. **原生高级动效库**：包含 27 种 CSS 动画和 20 种手写 Canvas 特效（如力导向知识图谱、黑客帝国代码雨、粒子爆炸等），进入幻灯片时自动初始化。
+*来源：GitHub README / 代码结构分析*
 
 ---
 
 ### 🎭 适用场景
 【INFERENCE】
-1. **AI 应用开发者**：在开发“文本生成 PPT”类 AI 智能体时，将其作为底层的渲染引擎和 Prompt 目标格式，解决 AI 难以直接生成高颜值 PPT 的痛点。
-2. **极客/前端开发者技术分享**：想要用代码控制幻灯片，且需要极高的定制化视觉效果（如 Canvas 粒子动画、代码高亮），但又不想配置复杂前端工程的开发者。
-3. **快速生成标准化图文内容**：例如通过 AI 批量生成小红书风格的图文卡片（项目中包含 `xhs-post` 模板）。
+- **AI 产品/平台开发者**：需要赋予 LLM 或 Agent 生成可视化报告、PPT、图文排版能力时，可将其作为底层的 HTML 渲染引擎和 Prompt 技能库。
+- **程序员/极客的技术分享**：喜欢用代码控制排版，需要终端风（Terminal）、代码高亮、知识图谱等硬核视觉效果，但又不想折腾 Node.js 构建环境的开发者。
+- **自媒体/社交平台图文生成**：利用其预设的“小红书白底杂志风”等模板，配合 AI 批量自动化生成 3:4 比例的社交媒体图片（通过内置的 Headless Chrome 导出脚本）。
 
-*判断依据：README 中明确指出的 "AgentSkill" 属性、提供的自然语言 Prompt 示例，以及纯前端技术栈的特性。*
-*confidence：high*
+**判断依据**：README 中明确列出了 "AgentSkill" 的安装方式、自然语言 Prompt 示例（如“做一份小红书图文”），以及纯静态免构建的技术特性。
+**confidence**：high
+
+---
 
 ### ✅ 是否值得深入研究
 【INFERENCE】
 **结论：值得**
 
-**理由：**
-- **信号1：巧妙的架构设计**：其演讲者模式（Presenter Mode）没有采用复杂的状态管理，而是用 `BroadcastChannel` 配合 `iframe` 传参实现双屏同步和像素级预览，这种纯原生 Web API 的组合使用非常值得前端学习。
-- **信号2：拥抱 AI 的产品定位**：它不仅是一个 PPT 工具，更是一个 "AgentSkill"。在 LLM 时代，定义一套能让 AI 稳定输出高质量富文本/排版的 HTML 模板标准，具有很高的实用价值。
-- **信号3：极高的视觉完成度**：在“零构建”的前提下，手写了 20 种 Canvas 动画和 36 种 CSS 变量主题，展现了极高的前端基础功底和审美（近 3000 Stars 也印证了这一点）。
+**理由**：
+- **信号1：极佳的 AI-Native 架构参考**。它展示了如何让 LLM 稳定输出复杂 UI：通过提供极度模块化的 HTML 骨架、CSS Token 和预设布局库，将 LLM 的任务从“写代码”降维成“填空和拼装”，这是目前 AI 生成 UI 的最佳实践。
+- **信号2：巧妙的原生 Web 技术应用**。其演讲者模式没有使用复杂的 WebSocket 或状态管理库，而是用原生的 `BroadcastChannel` 做跨窗口通信，用 `iframe` 做隔离预览，用 `postMessage` 做无刷新翻页，代码极具学习价值。
+- **信号3：高质量的零依赖图形库**。`assets/animations/fx/` 下的 20 个 Canvas 动效均为无第三方依赖的手写实现，是学习前端物理动效（如力导向图、磁场、粒子系统）的优秀源码。
 
-*confidence：high*
+**confidence**：high
+
+---
 
 ### ⚠️ 主要缺点或风险
 【INFERENCE】
-- **缺点1：对非技术人员门槛极高**：如果不借助 AI，用户需要手动编写 HTML 标签来排版，没有图形化界面（WYSIWYG），无法像 PowerPoint 那样拖拽。
-- **缺点2：纯静态维护的局限性**：由于没有引入组件化框架（如 React/Vue）或模板引擎，如果幻灯片页数极多，单个 HTML 文件的代码量会非常臃肿，手动修改结构容易出错。
-- **缺点3：导出方案的脆弱性**：依赖 Shell 脚本和 Headless Chrome 进行导出，在不同操作系统（Windows/Mac/Linux）上的环境兼容性可能存在问题。
+- **缺点1：人工编辑的门槛极高**。由于没有提供 WYSIWYG（所见即所得）的图形化编辑器，且没有采用 Markdown 语法，如果 AI 生成的结果有偏差，用户必须直接修改 HTML 代码进行微调，对非技术人员极度不友好。
+- **缺点2：导出格式受限**。目前仅提供基于 Headless Chrome 的 PNG 导出脚本 (`render.sh`)，不支持一键导出为 `.pptx` 格式，在传统的企业办公审批流或跨部门协作中很难流转。
+- **缺点3：排版自由度不如传统软件**。受限于预设的 31 种 Layout，如果需要进行复杂的绝对定位、随意拖拽元素，在 HTML 中手写会非常繁琐。
 
-*对使用场景的影响：这注定了它是一个属于“开发者”或“AI 智能体”的底层工具，而非面向大众的消费级产品。在企业级分享中，如果老板要求“发个 PPT 源文件我改改”，你会非常被动。*
+**对使用场景的影响**：该项目注定是一个“极客玩具”或“AI 渲染后端”，无法替代 PowerPoint/Keynote 成为大众的日常办公工具。
 
-*confidence：medium*
+---
 
 ### 🔗 与同类项目对比
 【INFERENCE】
 
-对标项目：Reveal.js, Slidev
+**对标项目**：Reveal.js, Slidev, Marp
 
-| 维度 | 本项目 (html-ppt-skill) | Reveal.js | Slidev |
-|-----|--------|----------|----------|
-| **定位** | AI Agent 技能 / 纯静态 HTML | 行业标准的 HTML PPT 框架 | 专为开发者打造的 Markdown PPT |
-| **核心优势** | 专为 AI 生成优化，零构建，自带海量高颜值主题和 Canvas 特效 | 生态极其庞大，插件丰富，稳定性极高 | 基于 Markdown 编写体验极佳，融合 Vue 组件生态 |
-| **核心劣势** | 手写 HTML 繁琐，缺乏现代前端组件化能力 | 默认主题较老旧，配置项繁杂 | 需要 Node.js 环境和构建步骤，偏重 |
+| 维度 | 本项目 (html-ppt-skill) | Reveal.js | Slidev | Marp |
+|-----|--------|----------|----------|------|
+| **定位** | AI Agent 技能 / 纯静态引擎 | 老牌 HTML 演示框架 | 面向开发者的 Markdown 演示 | 极简 Markdown 转 PPT 工具 |
+| **核心优势** | AI 原生整合、零构建、预设极度丰富（尤其是 Canvas 动效） | 生态庞大、插件丰富、可高度定制 | 基于 Vue/Vite，组件化强，支持 Markdown 编写 | 语法极简，VS Code 插件体验好，支持导出 PDF/PPTX |
+| **核心劣势** | 只能写 HTML，不支持 Markdown，无 `.pptx` 导出 | 框架较重，默认样式陈旧，需自己找主题 | 需要 Node.js 环境，有打包构建步骤 | 排版死板，动效极弱，只能做最基础的演示 |
 
-*对比依据：基于前端开源社区中主流网页 PPT 框架的技术栈特性、生态规模及 README 提供的功能矩阵。*
-*confidence：high*
+**对比依据**：基于前端演示工具生态的客观现状，结合本项目 README 中强调的 "no build step"、"AgentSkill" 及纯 HTML 编写的特性得出。
+**confidence**：high
 
 ---
 *元数据（系统必填）*
